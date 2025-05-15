@@ -122,7 +122,7 @@ export default function SinglePagePortfolio() {
       description:
         "A retro-themed website created for the Codedex Hackathon using React and Tailwind CSS, featuring nostalgic design elements and responsive layouts.",
       // COMMENT: Replace with actual project image - recommended size 600x400px
-      image: "/react.svg?height=400&width=600",
+      image: `${basePath}/react.svg`,
       category: "web",
       icon: <Globe className="h-5 w-5" />,
       color: "from-blue-600 to-cyan-600",
@@ -149,7 +149,7 @@ export default function SinglePagePortfolio() {
       description:
         "Developed an Expense Tracker application using Java (Spring Boot) for backend logic and MongoDB for NoSQL data storage, allowing users to add, update, delete, and categorize expenses with secure data handling and user-friendly API endpoints.",
       // COMMENT: Replace with actual project image - recommended size 600x400px
-      image: "/sbmongo.png?height=400&width=600",
+      image: `${basePath}/sbmongo.png`,
       category: "web",
       icon: <Database className="h-5 w-5" />,
       color: "from-green-600 to-teal-600",
@@ -176,7 +176,7 @@ export default function SinglePagePortfolio() {
       description:
         "A monolithic trivia application built with Java Spring Boot and PostgreSQL that allows users to add, update, delete, and fetch questions with comprehensive CRUD operations.",
       // COMMENT: Replace with actual project image - recommended size 600x400px
-      image: "/sbpostgres.png?height=400&width=600",
+      image: `${basePath}/sbpostgres.png`,
       category: "web",
       icon: <Layers className="h-5 w-5" />,
       color: "from-purple-600 to-pink-600",
@@ -204,7 +204,7 @@ export default function SinglePagePortfolio() {
       description:
         "Implemented AWS services such as DynamoDB and S3 for Candy Collector, reducing game load times and improving real-time score tracking, while staying within the free-tier limits to optimize costs. Frontend built with Phaser.js.",
       // COMMENT: Replace with actual project image - recommended size 600x400px
-      image: "/aws.jpeg?height=400&width=600",
+      image: `${basePath}/aws.jpeg`,
       category: "game",
       icon: <Gamepad2 className="h-5 w-5" />,
       color: "from-orange-600 to-red-600",
@@ -232,7 +232,7 @@ export default function SinglePagePortfolio() {
       description:
         "A comprehensive implementation of Spring Security featuring JWT authentication and OAuth2 integration for secure application access and user management.",
       // COMMENT: Replace with actual project image - recommended size 600x400px
-      image: "/jwt.png?height=400&width=600",
+      image: `${basePath}/jwt.png`,
       category: "web",
       icon: <Server className="h-5 w-5" />,
       color: "from-blue-600 to-indigo-600",
@@ -260,7 +260,7 @@ export default function SinglePagePortfolio() {
       description:
         "A food donation application built with Swift that connects food donors with recipients to reduce food waste and help those in need.",
       // COMMENT: Replace with actual project image - recommended size 600x400px
-      image: "/swift.png?height=400&width=600",
+      image: `${basePath}/swift.png`,
       category: "mobile",
       icon: <Heart className="h-5 w-5" />,
       color: "from-pink-600 to-rose-600",
