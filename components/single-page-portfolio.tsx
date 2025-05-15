@@ -48,6 +48,7 @@ import { Calendar } from "lucide-react"
 
 export default function SinglePagePortfolio() {
   const { toast } = useToast()
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ''
   const [activeSection, setActiveSection] = useState("hero")
   const [selectedProject, setSelectedProject] = useState(null)
   const [isModalOpen, setIsModalOpen] = useState(false)
@@ -755,7 +756,7 @@ export default function SinglePagePortfolio() {
                 <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/20 bg-background/50 backdrop-blur-sm">
                   {/* COMMENT: Replace with your actual profile image - recommended size 320x320px */}
                   <img
-                    src="/profile.jpeg?height=320&width=320"
+                    src={`${basePath}/profile.jpeg`}
                     alt="Shweta Mate"
                     className="object-cover w-full h-full"
                   />
