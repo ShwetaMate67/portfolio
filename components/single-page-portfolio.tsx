@@ -564,7 +564,7 @@ export default function SinglePagePortfolio() {
                 className="ml-2 bg-gradient-to-r from-purple-600 to-pink-600 hover:opacity-90 text-white"
               >
                 <a
-                  href="/Shweta_Mate_Resume.pdf"
+                  href={`${basePath}/Shweta_Mate_Resume.pdf`}
                   target="_blank"
                   rel="noopener noreferrer"
                   download="Shweta_Mate_Resume.pdf"
@@ -627,7 +627,7 @@ export default function SinglePagePortfolio() {
                     className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:opacity-90 text-white"
                   >
                     <a
-                      href="/Shweta_Mate_Resume.pdf"
+                      href={`${basePath}/Shweta_Mate_Resume.pdf`}
                       target="_blank"
                       rel="noopener noreferrer"
                       download="Shweta_Mate_Resume.pdf"
@@ -1076,7 +1076,7 @@ export default function SinglePagePortfolio() {
             {/* Resume download button - both views and downloads the resume */}
             <Button variant="outline" className="border-primary/20 hover:bg-primary/10 text-primary" asChild>
               <a
-                href="/Shweta_Mate_Resume.pdf"
+                href={`${basePath}/Shweta_Mate_Resume.pdf`}
                 target="_blank"
                 rel="noopener noreferrer"
                 download="Shweta_Mate_Resume.pdf"
