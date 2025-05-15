@@ -48,7 +48,7 @@ import { Calendar } from "lucide-react"
 
 export default function SinglePagePortfolio() {
   const { toast } = useToast()
-  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ''
+  const basePath = process.env.NODE_ENV === 'production' ? '/portfolio' : ''
   const [activeSection, setActiveSection] = useState("hero")
   const [selectedProject, setSelectedProject] = useState(null)
   const [isModalOpen, setIsModalOpen] = useState(false)
