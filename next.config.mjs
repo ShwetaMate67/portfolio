@@ -4,6 +4,7 @@ const isGithubActions = process.env.GITHUB_ACTIONS === 'true';
 const nextConfig = {
   output: 'export',
   basePath: isGithubActions ? '/portfolio' : '',
+  assetPrefix: isGithubActions ? '/portfolio/' : '',
   images: {
     unoptimized: true,
   },
